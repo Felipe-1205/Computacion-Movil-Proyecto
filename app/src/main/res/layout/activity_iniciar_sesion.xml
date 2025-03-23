@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".Iniciar_sesion">
+
+  <ImageView
+      android:id="@+id/logo"
+      android:layout_width="173dp"
+      android:layout_height="229dp"
+      android:layout_marginTop="75dp"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:srcCompat="@drawable/logo" />
+
+  <TextView
+      android:id="@+id/textView"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginStart="10dp"
+      android:layout_marginTop="50dp"
+      android:text="Correo"
+      android:textColor="@color/black"
+      android:textSize="15sp"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/logo" />
+
+  <TextView
+      android:id="@+id/textView2"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginStart="10dp"
+      android:layout_marginTop="25dp"
+      android:fontFamily="@font/poppins_medium"
+      android:text="Contraseña"
+      android:textColor="@color/black"
+      android:textSize="15sp"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/correo" />
+
+  <EditText
+      android:id="@+id/correo"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginStart="10dp"
+      android:layout_marginEnd="10dp"
+      android:defaultFocusHighlightEnabled="false"
+      android:ems="10"
+      android:fontFamily="@font/poppins_medium"
+      android:hint="Ingresa Tu Correo"
+      android:inputType="textEmailAddress"
+      android:textColor="@color/black"
+      android:textColorHint="#25000000"
+      android:textSize="15sp"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+  <EditText
+      android:id="@+id/contraseña"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginStart="10dp"
+      android:layout_marginEnd="10dp"
+      android:ems="10"
+      android:fontFamily="@font/poppins_medium"
+      android:hint="Ingresa Tu Contraseña"
+      android:inputType="textPassword"
+      android:lines="@integer/material_motion_duration_long_1"
+      android:textColor="@color/black"
+      android:textColorHint="#25000000"
+      android:textSize="15sp"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+  <Button
+      android:id="@+id/iniciar_sesion"
+      android:layout_width="200dp"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="50dp"
+      android:background="@drawable/blue"
+      android:fontFamily="@font/poppins_medium"
+      android:text="Iniciar Sesion"
+      android:textColor="@color/black"
+      android:textSize="15sp"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/contraseña" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base application theme -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:statusBarColor">@color/white</item>
+        <item name="colorPrimary">@color/white</item>
+    </style>
+    <style name="AppTheme.NoActionBar" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Otros atributos de estilo si los tienes -->
+    </style>
+    <style name="CardViewThemeOverlay" parent="CardViewTheme">
+        android:background="@drawable/esquinas"
+    </style>
+    <style name="other" parent="Theme.Proyecto.NoActionBar">
+
+    </style>
+</resources>

@@ -1,0 +1,13 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Base.Theme.Proyecto" parent="Theme.MaterialComponents.Light.DarkActionBar">
+        <item name="android:statusBarColor">@color/white</item>
+        <item name="colorPrimary">@color/white</item>
+    </style>
+    <style name="Theme.Proyecto.NoActionBar" parent="Theme.MaterialComponents.Light.NoActionBar">
+
+    </style>
+    <style name="CardViewTheme" parent="Base.Theme.Proyecto">
+
+    </style>
+    <style name="Theme.Proyecto" parent="Theme.AppCompat" />
+</resources>
